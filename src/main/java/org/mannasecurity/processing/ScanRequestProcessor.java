@@ -16,8 +16,6 @@ public class ScanRequestProcessor implements TaskProcessor {
     @Override
     public void process(TaskRequest request) {
         log.info("Received request in scan request processor");
-
-
     }
 
 }

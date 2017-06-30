@@ -1,11 +1,5 @@
 package org.mannasecurity;
 
-//import org.mannasecurity.processing.ScanRequestProcessor;
-//import org.mannasecurity.redis.TaskProcessorManager;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import org.mannasecurity.processing.ScanRequestProcessor;
 import org.mannasecurity.redis.TaskProcessorManager;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -40,22 +40,14 @@ public class OrchestrationManager {
         taskProcessorManager.setChannelProcessorMap(processorMap);
 
         taskProcessorManager.start();
-        System.err.println("************");
-        System.err.println("************");
-        System.err.println("started orchestration manager");
+
         log.debug("Stopped orchestration manager.");
-        System.err.println("************");
-        System.err.println("************");
     }
 
     @PreDestroy
     public void shutdown() {
         taskProcessorManager.stop();
-        System.err.println("************");
-        System.err.println("************");
-        System.err.println("stopped orchestration manager");
+
         log.debug("Stopped orchestration manager.");
-        System.err.println("************");
-        System.err.println("************");
     }
 }
