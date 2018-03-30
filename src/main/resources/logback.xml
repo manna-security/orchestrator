@@ -10,7 +10,7 @@
 
     <!-- Setting the root level of logging to INFO -->
     <!--<root level="info">-->
-    <root level="warn">
+    <root level="info">
     <!-- CONSOLE -->
         <appender-ref ref="STDOUT" />
     </root>

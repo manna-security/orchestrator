@@ -41,13 +41,13 @@ public class OrchestrationManager {
 
         taskProcessorManager.start();
 
-        log.debug("Stopped orchestration manager.");
+        log.info("Started orchestration manager.");
     }
 
     @PreDestroy
     public void shutdown() {
         taskProcessorManager.stop();
 
-        log.debug("Stopped orchestration manager.");
+        log.info("Stopped orchestration manager.");
     }
 }
